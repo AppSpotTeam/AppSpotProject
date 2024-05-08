@@ -1,0 +1,31 @@
+{
+  "android-sources": {
+    "farsroid": {
+      "search": {
+        "endpoint": "https://www.farsroid.com/page/${page_number}/?s=${app_name}",
+        "selectors": {
+          "appContainer": "#main_cat > div > article.post-item-wide",
+          "appName": "h2.post-item-wide-title > a",
+          "appSummary": "div > p",
+          "appIcon": "header > div.post-item-wide-right > figure > a > img.attachment-thumbnail.size-thumbnail.wp-post-image.lozad",
+          "appIconAttr": "data-src",
+          "appHref": "header > div.post-item-wide-right > figure > a"
+        }
+      },
+      "info": {
+        "selectors": {
+          "appScreenshots": "#screenshots_slider > div.swiper-wrapper > div.swiper-slide > a",
+          "appWhatsNew": "section:nth-child(3) > ul > li > div",
+          "appDescription": "div.post-content > p:nth-child(2)",
+          "appDownload": "",
+          "similarApps": {
+            "names": "#related_posts > div > div.swiper-slide > article > div > h3",
+            "icons": "#related_posts > div > div.swiper-slide > article > div > figure > img.attachment-thumbnail.size-thumbnail.wp-post-image.lozad",,,
+            "iconsAttr": "data-src"
+          }
+        }
+      }
+    }
+
+  }
+}
