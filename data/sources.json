@@ -2,7 +2,7 @@
   "android-sources": {
     "farsroid": {
       "search": {
-        "endpoint": "https://www.farsroid.com/page/${page_number}/?s=${app_name}",
+        "queryUrl": "https://www.farsroid.com/page/${page_number}/?s=${app_name}",
         "selectors": {
           "appContainer": "#main_cat > div > article.post-item-wide",
           "appName": "h2.post-item-wide-title > a",
@@ -19,13 +19,42 @@
           "appDescription": "div.post-content > p:nth-child(2)",
           "appDownload": "",
           "similarApps": {
-            "names": "#related_posts > div > div.swiper-slide > article > div > h3",
-            "icons": "#related_posts > div > div.swiper-slide > article > div > figure > img.attachment-thumbnail.size-thumbnail.wp-post-image.lozad",,,
-            "iconsAttr": "data-src"
+            "appContainer": "#related_posts > div > div.swiper-slide > article",
+            "appName": "div > h3",
+            "appIcon": "div > figure > img.blurred-img.wp-post-image.lozad",
+            "appIconAttr": "data-src",
+            "appHref": "a"
+          }
+        }
+      }
+    },
+    "androidgozar": {
+      "search": {
+        "queryUrl": "https://androidgozar.com/?s=${app_name}&paged=${page_number}",
+        "selectors": {
+          "appContainer": "#posts > div > div",
+          "appName": "article > h2 > a",
+          "appSummary": "",
+          "appIcon": "article > a > img",
+          "appIconAttr": "src",
+          "appHref": "article > h2 > a"
+        }
+      },
+      "info": {
+        "selectors": {
+          "appScreenshots": "#screenshots > a",
+          "appWhatsNew": "section:nth-child(3) > ul > li > div",
+          "appDescription": "div.post-content > p:nth-child(2)",
+          "appDownload": "#dl-links > a",
+          "similarApps": {
+            "appContainer": "body > main > div:nth-child(2) > section.col-lg-8 > div:nth-child(9) > article",
+            "appName": "h3 > a",
+            "appIcon": "a > img",
+            "appIconAttr": "src",
+            "appHref": "h3 > a"
           }
         }
       }
     }
-
   }
 }
