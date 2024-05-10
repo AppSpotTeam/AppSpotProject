@@ -1,5 +1,5 @@
 {
-  "android-sources": {
+  "android": {
     "farsroid": {
       "search": {
         "queryUrl": "https://www.farsroid.com/page/${page_number}/?s=${app_name}",
