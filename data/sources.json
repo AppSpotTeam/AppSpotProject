@@ -36,6 +36,117 @@
         "latestUpdate": "body > main > div:nth-child(2) > section.col-lg-8 > table > tbody > tr:nth-child(1) > td",
         "moreAppsByDeveloper": ""
       }
+    },
+    "iranapp": {
+      "queryUrl": "https://iranapp.me/page/${page_number}/?s=${app_name}",
+      "appContainer": "body > section > div > div.row.mt-3 > div.col-xl-8.col-lg-8.col-md-12 > div > article > header",
+      "basicInformation": {
+        "title": "div.col-10.class-padding-iopeq > div.title-post-main.mb-3 > a > h2",
+        "iconUri": "div.col-2.img-type-post.text-left > div > img",
+        "websiteUrl": "div.col-10.class-padding-iopeq > div.title-post-main.mb-3 > a"
+      },
+      "detailedInformation": {
+        "developer": "#myTabContent > div.tbl-app-detail > table > tbody > tr:nth-child(4) > td",
+        "summary": [
+          "body > section > div > div.row.mt-3 > div.col-xl-8.col-lg-8.col-md-12 > div > article > div.content-post-main.pt-3 > div > p"
+        ],
+        "fileSize": "",
+        "version": "",
+        "slider": [
+          "body > section > div > div.row.mt-3 > div.col-xl-8.col-lg-8.col-md-12 > div > article > div.content-post-main.pt-3 > div > figure.wp-block-gallery.columns-3.is-cropped > ul > li > figure > a"
+        ],
+        "downloadLinks": [
+          "#dlas > div > div > p > a"
+        ],
+        "relatedApps": {
+          "appContainer": "",
+          "title": "",
+          "iconUri": "",
+          "websiteUrl": ""
+        }
+      },
+      "additionalInformation": {
+        "genre": "#myTabContent > div.tbl-app-detail > table > tbody > tr:nth-child(2) > td > a",
+        "features": "body > section > div > div.row.mt-3 > div.col-xl-8.col-lg-8.col-md-12 > div > article > div.content-post-main.pt-3 > div > ul",
+        "packageId": "",
+        "releaseNotes": "",
+        "latestUpdate": "body > section > div > div.row.mt-3 > div.col-xl-8.col-lg-8.col-md-12 > div > article > header > div.col-10.class-padding-iopeq > div.infor-post-bot.dates.float-left > span",
+        "moreAppsByDeveloper": ""
+      }
+    },
+    "androidiha": {
+      "queryUrl": "https://www.androidha.com/search/${app_name}/page/${page_number}/",
+      "appContainer": "body > main > div > div.arh_archpst > article",
+      "basicInformation": {
+        "title": "header > a > h2",
+        "iconUri": "header > a > img",
+        "websiteUrl": "header > a"
+      },
+      "detailedInformation": {
+        "developer": "",
+        "summary": [
+          "body > main > div > article > div > div.arh_cntnt"
+        ],
+        "fileSize": "body > main > div > article > div > div.arh_sinfo > ul > li.arh_si3 > strong",
+        "version": "body > main > div > article > div > div.arh_sinfo > ul > li.arh_si2 > strong",
+        "slider": [
+          "body > main > div > article > div > div.arh_glry > div > ul > li > a"
+        ],
+        "downloadLinks": [
+          "body > main > div > article > div > div.arh_apkdl > ul > li > a"
+        ],
+        "relatedApps": {
+          "appContainer": "",
+          "title": "",
+          "iconUri": "",
+          "websiteUrl": ""
+        }
+      },
+      "additionalInformation": {
+        "genre": "body > main > div > article > header > div > span.arh_sgct > a:nth-child(2)",
+        "features": "",
+        "packageId": "",
+        "releaseNotes": "",
+        "latestUpdate": "body > main > div > article > div > div.arh_sinfo > ul > li.arh_si6 > strong",
+        "moreAppsByDeveloper": ""
+      }
+    },
+    "siloo": {
+      "queryUrl": "https://www.siloo.ir/page/${page_number}/?s=${app_name}",
+      "appContainer": "#center_sidebars > div > article",
+      "basicInformation": {
+        "title": "div.tarlanweb_post_txt > header > h2 > a",
+        "iconUri": "figure > a > img",
+        "websiteUrl": "figure > a"
+      },
+      "detailedInformation": {
+        "developer": "#center_sidebars > div > article > div.dl_box_content.det_boxt > div.dl_box_content_tc.files_det_box > ul > li:nth-child(1)",
+        "summary": [
+          "#center_sidebars > div > article > div.fulls_post_txt > p"
+        ],
+        "fileSize": "#center_sidebars > div > article > div.dl_box_content.det_boxt > div.dl_box_content_tc.files_det_box > ul > li:nth-child(6)",
+        "version": "#center_sidebars > div > article > div.dl_box_content.det_boxt > div.dl_box_content_tc.files_det_box > ul > li:nth-child(2)",
+        "slider": [
+          "#center_sidebars > div > article > div.dl_box_content.gallerii > div.dl_box_content_tc > div.gallery_box > ul > li > a"
+        ],
+        "downloadLinks": [
+          "#center_sidebars > div > article > div.dl_box_content.dl_boxt > div.dl_box_content_tc.dl_box_kianoosh.old_links_boxes > a"
+        ],
+        "relatedApps": {
+          "appContainer": "#center_sidebars > div > div:nth-child(7) > div.rkian_box_cont.related_posts_rkianoosh_ir > ul > li",
+          "title": "a > span.rel_tt",
+          "iconUri": "a > img",
+          "websiteUrl": "a"
+        }
+      },
+      "additionalInformation": {
+        "genre": "#center_sidebars > div > article > footer > div.tarlanweb_post_ft > a",
+        "features": "",
+        "packageId": "",
+        "releaseNotes": "",
+        "latestUpdate": "#center_sidebars > div > article > div.infos_boxes > div:nth-child(3)",
+        "moreAppsByDeveloper": ""
+      }
     }
   }
 }
