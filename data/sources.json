@@ -1,59 +1,40 @@
 {
-  "android": {
-    "farsroid": {
-      "search": {
-        "queryUrl": "https://www.farsroid.com/page/${page_number}/?s=${app_name}",
-        "selectors": {
-          "appContainer": "#main_cat > div > article.post-item-wide",
-          "appName": "h2.post-item-wide-title > a",
-          "appSummary": "div > p",
-          "appIcon": "header > div.post-item-wide-right > figure > a > img.attachment-thumbnail.size-thumbnail.wp-post-image.lozad",
-          "appIconAttr": "data-src",
-          "appHref": "header > div.post-item-wide-right > figure > a"
-        }
-      },
-      "info": {
-        "selectors": {
-          "appScreenshots": "#screenshots_slider > div.swiper-wrapper > div.swiper-slide > a",
-          "appWhatsNew": "section:nth-child(3) > ul > li > div",
-          "appDescription": "div.post-content > p:nth-child(2)",
-          "appDownload": "",
-          "similarApps": {
-            "appContainer": "#related_posts > div > div.swiper-slide > article",
-            "appName": "div > h3",
-            "appIcon": "div > figure > img.blurred-img.wp-post-image.lozad",
-            "appIconAttr": "data-src",
-            "appHref": "a"
-          }
-        }
-      }
-    },
+  "sources": {
     "androidgozar": {
-      "search": {
-        "queryUrl": "https://androidgozar.com/?s=${app_name}&paged=${page_number}",
-        "selectors": {
-          "appContainer": "#posts > div > div",
-          "appName": "article > h2 > a",
-          "appSummary": "",
-          "appIcon": "article > a > img",
-          "appIconAttr": "src",
-          "appHref": "article > h2 > a"
+      "queryUrl": "https://androidgozar.com/?s=${app_name}&paged=${page_number}",
+      "appContainer": "#posts > div > div > article",
+      "basicInformation": {
+        "title": "h2 > a",
+        "iconUri": "a > img",
+        "websiteUrl": "h2 > a"
+      },
+      "detailedInformation": {
+        "developer": "",
+        "summary": [
+          "#post > p:nth-child(5)"
+        ],
+        "fileSize": "body > main > div:nth-child(2) > section.col-lg-8 > table > tbody > tr:nth-child(2) > td",
+        "version": "",
+        "slider": [
+          "#screenshots > div.owl-stage-outer > div > div:nth-child"
+        ],
+        "downloadLinks": [
+          "#dl-links > a"
+        ],
+        "relatedApps": {
+          "appContainer": "body > main > div:nth-child(2) > section.col-lg-8 > div:nth-child(9) > article",
+          "title": "h3 > a",
+          "iconUri": "a > img",
+          "websiteUrl": "h3 > a"
         }
       },
-      "info": {
-        "selectors": {
-          "appScreenshots": "#screenshots > a",
-          "appWhatsNew": "section:nth-child(3) > ul > li > div",
-          "appDescription": "div.post-content > p:nth-child(2)",
-          "appDownload": "#dl-links > a",
-          "similarApps": {
-            "appContainer": "body > main > div:nth-child(2) > section.col-lg-8 > div:nth-child(9) > article",
-            "appName": "h3 > a",
-            "appIcon": "a > img",
-            "appIconAttr": "src",
-            "appHref": "h3 > a"
-          }
-        }
+      "additionalInformation": {
+        "genre": "body > main > div:nth-child(2) > section.col-lg-8 > table > tbody > tr:nth-child(6) > td > a",
+        "features": "#post > ul",
+        "packageId": "",
+        "releaseNotes": "#post > div.text-left.ltr > p",
+        "latestUpdate": "body > main > div:nth-child(2) > section.col-lg-8 > table > tbody > tr:nth-child(1) > td",
+        "moreAppsByDeveloper": ""
       }
     }
   }
