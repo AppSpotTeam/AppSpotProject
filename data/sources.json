@@ -6,7 +6,8 @@
       "basicInformation": {
         "title": "h2 > a",
         "iconUri": "a > img",
-        "websiteUrl": "h2 > a"
+        "websiteUrl": "h2 > a",
+        "iconUriAttr": "src"
       },
       "detailedInformation": {
         "developer": "",
@@ -43,7 +44,8 @@
       "basicInformation": {
         "title": "div.col-10.class-padding-iopeq > div.title-post-main.mb-3 > a > h2",
         "iconUri": "div.col-2.img-type-post.text-left > div > img",
-        "websiteUrl": "div.col-10.class-padding-iopeq > div.title-post-main.mb-3 > a"
+        "websiteUrl": "div.col-10.class-padding-iopeq > div.title-post-main.mb-3 > a",
+        "iconUriAttr": "src"
       },
       "detailedInformation": {
         "developer": "#myTabContent > div.tbl-app-detail > table > tbody > tr:nth-child(4) > td",
@@ -80,7 +82,8 @@
       "basicInformation": {
         "title": "header > a > h2",
         "iconUri": "header > a > img",
-        "websiteUrl": "header > a"
+        "websiteUrl": "header > a",
+        "iconUriAttr": "srcset"
       },
       "detailedInformation": {
         "developer": "",
@@ -117,7 +120,8 @@
       "basicInformation": {
         "title": "div.tarlanweb_post_txt > header > h2 > a",
         "iconUri": "figure > a > img",
-        "websiteUrl": "figure > a"
+        "websiteUrl": "figure > a",
+        "iconUriAttr": "src"
       },
       "detailedInformation": {
         "developer": "#center_sidebars > div > article > div.dl_box_content.det_boxt > div.dl_box_content_tc.files_det_box > ul > li:nth-child(1)",
