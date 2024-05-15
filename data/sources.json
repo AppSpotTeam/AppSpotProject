@@ -1,7 +1,7 @@
 [
   {
-    "app_name": "androidgozar",
-    "search_query": "https://androidgozar.com/?s=${app_name}&paged=${page_number}",
+    "name": "androidgozar",
+    "search_query": "https://androidgozar.com/?s=${name}&paged=${page_number}",
     "selectors": {
       "title": "h2 > a",
       "icon_url": "a > img",
@@ -28,8 +28,8 @@
     }
   },
   {
-    "app_name": "androidgozar",
-    "search_query": "https://androidgozar.com/?s=${app_name}&paged=${page_number}",
+    "name": "androidgozar",
+    "search_query": "https://androidgozar.com/?s=${name}&paged=${page_number}",
     "selectors": {
       "title": "",
       "icon_url": "",
@@ -56,8 +56,8 @@
     }
   },
   {
-    "app_name": "iranapp",
-    "search_query": "https://iranapp.me/page/${page_number}/?s=${app_name}",
+    "name": "iranapp",
+    "search_query": "https://iranapp.me/page/${page_number}/?s=${name}",
     "selectors": {
       "title": "div.col-10.class-padding-iopeq > div.title-post-main.mb-3 > a > h2",
       "icon_url": "div.col-2.img-type-post.text-left > div > img",
@@ -84,8 +84,8 @@
     }
   },
   {
-    "app_name": "androidiha",
-    "search_query": "https://www.androidha.com/search/${app_name}/page/${page_number}/",
+    "name": "androidiha",
+    "search_query": "https://www.androidha.com/search/${name}/page/${page_number}/",
     "selectors": {
       "title": "header > a > h2",
       "icon_url": "header > a > img",
