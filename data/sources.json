@@ -28,34 +28,6 @@
     }
   },
   {
-    "name": "androidgozar",
-    "search_query": "https://androidgozar.com/?s=${name}&paged=${page_number}",
-    "selectors": {
-      "title": "",
-      "icon_url": "",
-      "website_url": "",
-      "icon_url_attribute": "",
-      "developer": "",
-      "file_size": "",
-      "version": "",
-      "genre": "",
-      "features": "",
-      "package_id": "",
-      "release_notes": "",
-      "latest_update": "",
-      "more_apps_by_developer": "",
-      "summary": [""],
-      "slider_images": [""],
-      "download_links": [""],
-      "related_apps": {
-        "app_container": "",
-        "title": "",
-        "icon_url": "",
-        "website_url": ""
-      }
-    }
-  },
-  {
     "name": "iranapp",
     "search_query": "https://iranapp.me/page/${page_number}/?s=${name}",
     "selectors": {
