@@ -1,0 +1,90 @@
+
+[
+  {
+    "source_name": "androidgozar",
+    "search_query": "https://androidgozar.com/?s=${name}&paged=${page_number}",
+    "selectors": {
+      "app_container": "#posts > div > div > article",
+      "title": "h2 > a",
+      "icon_url": "a > img",
+      "website_url": "h2 > a",
+      "icon_url_attribute": "src",
+      "developer": "",
+      "file_size": "body > main > div:nth-child(2) > section.col-lg-8 > table > tbody > tr:nth-child(2) > td",
+      "version": "",
+      "genre": "body > main > div:nth-child(2) > section.col-lg-8 > table > tbody > tr:nth-child(6) > td > a",
+      "features": "#post > ul",
+      "package_id": "",
+      "release_notes": "#post > div.text-left.ltr > p",
+      "latest_update": "body > main > div:nth-child(2) > section.col-lg-8 > table > tbody > tr:nth-child(1) > td",
+      "more_apps_by_developer": "",
+      "summary": ["#post > p:nth-child(5)"],
+      "slider_images": ["#screenshots > div.owl-stage-outer > div > div:nth-child"],
+      "download_links": ["#dl-links > a"],
+      "related_apps": {
+        "app_container": "body > main > div:nth-child(2) > section.col-lg-8 > div:nth-child(9) > article",
+        "title": "h3 > a",
+        "icon_url": "a > img",
+        "website_url": "h3 > a"
+      }
+    }
+  },
+  {
+    "source_name": "iranapp",
+    "search_query": "https://iranapp.me/page/${page_number}/?s=${name}",
+    "selectors": {
+      "app_container": "body > section > div > div.row.mt-3 > div.col-xl-8.col-lg-8.col-md-12 > div > article > header",
+      "title": "div.col-10.class-padding-iopeq > div.title-post-main.mb-3 > a > h2",
+      "icon_url": "div.col-2.img-type-post.text-left > div > img",
+      "website_url": "div.col-10.class-padding-iopeq > div.title-post-main.mb-3 > a",
+      "icon_url_attribute": "src",
+      "developer": "#myTabContent > div.tbl-app-detail > table > tbody > tr:nth-child(4) > td",
+      "file_size": "",
+      "version": "",
+      "genre": "#myTabContent > div.tbl-app-detail > table > tbody > tr:nth-child(2) > td > a",
+      "features": "body > section > div > div.row.mt-3 > div.col-xl-8.col-lg-8.col-md-12 > div > article > div.content-post-main.pt-3 > div > ul",
+      "package_id": "",
+      "release_notes": "",
+      "latest_update": "body > section > div > div.row.mt-3 > div.col-xl-8.col-lg-8.col-md-12 > div > article > header > div.col-10.class-padding-iopeq > div.infor-post-bot.dates.float-left > span",
+      "more_apps_by_developer": "",
+      "summary": ["body > section > div > div.row.mt-3 > div.col-xl-8.col-lg-8.col-md-12 > div > article > div.content-post-main.pt-3 > div > p"],
+      "slider_images": ["body > section > div > div.row.mt-3 > div.col-xl-8.col-lg-8.col-md-12 > div > article > div.content-post-main.pt-3 > div > figure.wp-block-gallery.columns-3.is-cropped > ul > li > figure > a"],
+      "download_links": ["#dlas > div > div > p > a"],
+      "related_apps": {
+        "app_container": "",
+        "title": "",
+        "icon_url": "",
+        "website_url": ""
+      }
+    }
+  },
+  {
+    "source_name": "androidiha",
+    "search_query": "https://www.androidha.com/search/${name}/page/${page_number}/",
+    "selectors": {
+      "app_container": "",
+      "title": "header > a > h2",
+      "icon_url": "header > a > img",
+      "website_url": "header > a",
+      "icon_url_attribute": "srcset",
+      "developer": "",
+      "file_size": "body > main > div > article > div > div.arh_sinfo > ul > li.arh_si3 > strong",
+      "version": "body > main > div > article > div > div.arh_sinfo > ul > li.arh_si2 > strong",
+      "genre": "body > main > div > article > header > div > span.arh_sgct > a:nth-child(2)",
+      "features": "",
+      "package_id": "",
+      "release_notes": "",
+      "latest_update": "body > main > div > article > div > div.arh_sinfo > ul > li.arh_si6 > strong",
+      "more_apps_by_developer": "",
+      "summary": ["body > main > div > article > div > div.arh_cntnt"],
+      "slider_images": ["body > main > div > article > div > div.arh_glry > div > ul > li > a"],
+      "download_links": ["body > main > div > article > div > div.arh_apkdl > ul > li > a"],
+      "related_apps": {
+        "app_container": "",
+        "title": "",
+        "icon_url": "",
+        "website_url": ""
+      }
+    }
+  }
+]
